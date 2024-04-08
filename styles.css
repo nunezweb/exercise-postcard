@@ -4,10 +4,23 @@ body {
 
 .postcard {
 	background: white;
-	width: 400px;
-	height: 300px;
+	width: 420px;
+	height: 340px;
 	margin: auto;
-	padding: 5px;
+	padding: 15px;
+	border-radius: 15px;
+}
+.socialnetwork {
+	display: flex;
+	padding-left:10px;
+	justify-content: center;
+}
+.postcard .github{
+	font-size:20px;
+	margin: auto;
+	margin-left: 0%;
+	padding-left:11px;
+	color: black;
 }
 .postcard-header {
 	display: flex;
